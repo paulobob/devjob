@@ -7567,3 +7567,37 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+    .btn {
+      background: #e1482d;
+      border: none;
+      color: #ffffff;
+      border-radius: 4px;
+      font: 700 16px 'Open Sans';
+      text-transform: uppercase;
+      text-decoration: none;
+      width: 100%;
+      line-height: 46px;
+      letter-spacing: -0.020em;
+      display: block;
+      margin-top: 8px;
+      box-shadow: 9px 19px 33px -17px rgba(0,0,0,0.4);
+      transition: all 0.5s ease;
+      text-align: center;
+      cursor: pointer;
+  }
+  .form-input {
+    width: 100%;
+    background: #ebebeb;
+    border: solid 1px #d4d4d4;
+    box-shadow: none;
+    font-size: 16px;
+    color: #2e2e2e;
+    border-radius: 4px;
+    line-height: 45px;
+    padding: 1px 12px 0px 14px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    transition: all 0.5s ease;
+}

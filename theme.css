@@ -135,7 +135,7 @@ a {
   background-color: transparent; }
   a:hover {
     color: #0b756c;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -7743,4 +7743,33 @@ main{ margin: 0 auto; max-width: 1180px; min-height: 280px; height: 505px; posit
 }
 .display-8 b{
   font-weight: 700;
+}
+.fa-facebook-official{
+  color:#6c757d;  
+}
+.fa-facebook-official:hover{ color: #3b5998;transition: all 0.5s ease;}
+.fa-instagram{
+  color:#6c757d;  
+  
+}
+.fa-instagram:hover{  
+  color: #3f729b;
+  transition: all 0.5s ease;
+}
+.fa-youtube{
+  color:#6c757d;  
+  transition: all 0.5s ease;
+}
+.fa-youtube:hover{
+  color: #c4302b;
+}
+.fa-telegram{
+  color:#6c757d;  
+}
+.fa-telegram:hover{
+  color: #0088cc;
+  transition: all 0.5s ease;
+}
+.foto-professor{
+  padding-left: 15px;
 }

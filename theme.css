@@ -4903,7 +4903,7 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #12bbad !important; }
+  background-color: #173248 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -7584,6 +7584,7 @@ a.text-dark:hover, a.text-dark:focus {
       transition: all 0.5s ease;
       text-align: center;
       cursor: pointer;
+      font-family: 'Open Sans';
   }
   .form-input {
     width: 100%;
@@ -7600,4 +7601,146 @@ a.text-dark:hover, a.text-dark:focus {
     font-weight: 400;
     font-family: 'Open Sans';
     transition: all 0.5s ease;
+}
+.listaDireta ul{
+    width: 994px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listaDireta ul li{
+  position: relative;
+  padding-left: 70px;
+  padding-right: 30px;
+  margin-right: 30px;
+}
+.listaDireta ul li i{
+  width: 54px;
+  position: absolute;
+  left: 0px;
+  top: 7px;
+}
+.listaDireta ul li p{
+  text-align: left;
+  color: #ffffff;
+  font: 400 15px/22px 'Open Sans';
+}
+li {
+  list-style: none;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.listaDireta ul li::after {
+  content: '';
+  display: inline-block;
+  width: 2px;
+  height: 25px;
+  background: #FFF;
+  opacity: 0.2;
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+ul{
+  display: block;
+  list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    font-family: 'Open Sans';
+}
+.listaDireta{
+  padding: 60px 0px 40px;
+    position: relative;
+    overflow: hidden;
+    background: #173248;
+}
+ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, input, button, textarea, p, blockquote, th, td, fieldset {
+  margin: 0;
+  padding: 0;
+}
+* {
+  outline: none;
+}
+._320 .listaDireta{ padding: 30px 0px 10px;}
+._320 .listaDireta ul{ display: block; width: 255px; margin: 0 auto;}
+._320 .listaDireta ul li{ margin-bottom: 30px; padding-right: 0px; margin-right: 0px;}
+._320 .listaDireta ul li::after{ display: none;}
+._320 .listaDireta ul li p{ font-size: 13px; padding-top: 5px;}
+._320 .listaDireta h3{ font: bold 14px/20px 'Open Sans';
+   font-style: italic; color: #a5b3be; text-align: center; text-transform: uppercase; padding-bottom: 20px;}
+  ._320 .listaDireta h3 b{ color: #d9e3ec;}
+  
+  .form {
+    float: left;
+      width: 460px;
+      position: relative;
+      z-index: 30;
+      margin-bottom: 60px;
+      margin-top: 60px;
+  }
+  .video-subir{
+    vertical-align: bottom;
+    
+  }
+  ._320 .video-subir{
+    position: relative;
+    width: 320px;
+    top: initial;
+    left: initial;
+    transform: none;
+    margin: 0px auto 0 auto;
+  }
+  h1 b{
+    font-weight: 700;
+  }
+._320 .main{ max-width: 480px; min-width: 320px; height: initial; min-height: initial;}
+._320 main .form{ margin: 0px auto; float: initial; text-align: center; padding: 25px 20px 0px 20px; width: 100%; box-sizing: border-box;}
+._320 main .form h1{ font: normal 24px/30px 'MoskMedium500'; letter-spacing: -0.040em;}
+._320 main .form h1 b{ font: normal 24px/30px 'MoskExtraBold800';}
+._320 main .form { max-width: 400px; min-width: 280px; margin: 15px auto; width: 100%;}
+
+.main .form h3{ margin: 22px auto 0 auto; font:700 14px 'Open Sans'; font-style: italic; color: #d2d4d5; width: 220px; text-align: center; border-top:solid 2px #e5e5e5; text-transform: uppercase; padding-top: 5px; transition: all 0.5s ease; }
+.main .form:hover h3{ color: #666666; width: 240px;}
+.main .form input:focus{ background: #ffffff; border: solid 1px #2a2a2a;}
+.main .form .btn:hover{ filter: brightness(115%); box-shadow: 9px 19px 33px -17px rgba(0,0,0,0.8);}
+.main .form h1 b:nth-of-type(1){ color: #4267b2; }
+.main .form h1 b:nth-of-type(2){ color: #cc382d; }
+/* .main .form h1 b:nth-of-type(3){ color: #cc382d; } */
+  
+._320 .main  {
+  margin: 0px auto;
+  float: initial;
+  text-align: center;
+  padding: 25px 20px 0px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+section {
+  display: block;
+}
+._320 .video-subir img{
+  position: relative;
+  width: 320px;
+  top: initial;
+  left: initial;
+  transform: none;
+  margin: 0px 0px 20px auto;
+}
+main{ margin: 0 auto; max-width: 1180px; min-height: 280px; height: 505px; position: relative; overflow: hidden;}
+.listaDireta ul li img{
+      width: 54px;
+    position: absolute;
+    left: 0px;
+    top: 7px;
+}
+.blockquote-footer b{
+  font-weight: 700;
+}
+.display-8 b{
+  font-weight: 700;
 }

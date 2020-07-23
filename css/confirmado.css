@@ -1,0 +1,94 @@
+.confirmado main .video{ max-width: 750px; min-width: 320px; margin: 0 auto; position: relative; }
+	.confirmado main .video{ position: relative; padding: 0px 20px; box-sizing: border-box; }
+	.confirmado main .video h1{ font: normal 22px/40px 'Open Sans'; letter-spacing: -0.030em; color: #34424f; text-align: center; text-transform: uppercase; padding-top: 17px;}
+		.confirmado main .video h1 b{ font: normal 22px/40px 'Open Sans'; color: #e1482d; }
+
+	.confirmado main .video .monitor{ position: absolute; width: 100%; top:75px; left: 0px; z-index: 10;}
+	.confirmado main .video .videoVimeo {margin-top: 37px; border-radius: 3px; overflow: hidden; z-index: 11; position: relative; margin-bottom: 68px;}
+	/* .confirmado main .video::before{ content: ''; display: block; width: 219px; bottom: -81px; left: 50%; background: #ffffff; position: absolute; height: 14px;   box-shadow:0px 6px 15px -3px rgba(0,0,0,0.4); z-index: 3; border-top-left-radius: 20px; border-top-right-radius: 20px; transform: translateX(-50%);} */
+
+	.confirmado main .video .nota{ position: absolute; width:90px; top:300px; right:-115px; z-index: 20;}
+		.confirmado main .video .nota img{ width: 40px; margin-bottom: 5px;}
+		.confirmado main .video .nota p{ font: normal 13px/18px "Open Sans"; color: #78828b; text-transform: uppercase;}
+			.confirmado main .video .nota p b{ color: #345d7f; font-weight: 800;}
+
+	.confirmado .fundoChamadas{ height: 102px; position: relative; margin-bottom: 245px; }
+		.confirmado .fundoChamadas .boxChamadas{ position: absolute; left: 50%; top: 60px; width: 980px; transform: translateX(-50%); display: flex; background: #ffffff; }
+		.confirmado .fundoChamadas .boxChamadas section{ box-sizing: border-box; padding: 0px 7% 0px; margin: 50px 0.2% 90px; width: 49.6%; text-align: center; overflow: hidden; position: relative; } 
+
+	.confirmado .fundoChamadas .boxChamadas section h3{ font:normal 27px/29px 'Open Sans'; color: #3d576c;}
+	.confirmado .fundoChamadas .boxChamadas section h3 b{ font: normal 26px/29px 'Open Sans';}
+	.confirmado .fundoChamadas .boxChamadas section p{ font: normal 14px/22px 'Open Sans'; color: #797c80; padding: 10px 0 0 0;}
+	
+	.confirmado .fundoChamadas .boxChamadas section .quadradinho{ position:absolute; top: 0px; left: 50%; transform: translateX(-50%); width: 35px; height: 14px; overflow: hidden; }
+	.confirmado .fundoChamadas .boxChamadas section .quadradinho b{ display: block; position: absolute; top: -7px; left: calc(50% - 4px); width: 27px; height: 27px; background: #eef0f1; border-radius: 5px; transform: rotate(45deg) translateX(-50%); z-index: 1; }
+	
+	.confirmado .fundoChamadas .boxChamadas section .quadradinho em{ display: block; position: absolute; top: -9px; left: calc(50% - 2px); width: 19px; height: 21px; border-radius: 5px; transform: rotate(45deg) translateX(-50%); z-index: 2; } 
+
+	.confirmado .fundoChamadas .boxChamadas .canalTelegram{ border-right: solid 1px #f0f0f0;}
+	.confirmado .fundoChamadas .boxChamadas .canalTelegram h3 b{color: #2da4d7;}
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube h3 b{color: #e1482d;}
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube{ border-left: solid 1px #f0f0f0;}
+
+	.confirmado .fundoChamadas .boxChamadas section a.telegram:link,
+	.confirmado .fundoChamadas .boxChamadas section a.telegram:active,
+	.confirmado .fundoChamadas .boxChamadas section a.telegram:visited{ background: #2da4d7; width: 210px; height: 38px; position: relative; display: block; border-radius: 4px; margin: 10px auto 0 auto; transition: all 0.5s ease;}
+		.confirmado .fundoChamadas .boxChamadas section a.telegram em{ position: absolute; left: 56px; font: 700 13px 'Open Sans'; color: #ffffff; text-transform: uppercase; top: 10px;}
+		.confirmado .fundoChamadas .boxChamadas section a.telegram span{ position: absolute; height: 22px; width: 22px; display:block; left: 20px; top: 10px; transition: all 0.5s ease;}
+		.confirmado .fundoChamadas .boxChamadas section a.telegram span svg path{ fill:#96d2eb; transition: all 0.5s ease; }
+	.confirmado .fundoChamadas .boxChamadas section a.telegram:hover span svg path{ fill:#ffffff;}
+	.confirmado .fundoChamadas .boxChamadas section a.telegram:hover { filter: brightness(110%);}
+
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a.youtube:link,
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a.youtube:active,
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a.youtube:visited{ display: block; width: 310px; height: 55px; position: relative; margin: 15px auto 0 auto; transition: all 0.5s ease;}	
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a.youtube .foto{ float: left;}
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a.youtube h5{ font: 600 18px/21px 'Open Sans'; color: #3d576c; float: left; padding-left: 10px; letter-spacing: 0.020em; transition: all 0.5s ease; padding-top: 9px; }
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a.youtube span{ width: 15px; position: absolute; left: 66px; top: 35px; height: 13px; overflow: hidden; }
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a.youtube em{ position: absolute; left: 88px; top: 32px; font: 600 13px 'Open Sans'; color: #b1b2b2; transition: all 0.5s ease;}
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a.youtube span svg{ margin-top: -1px; float: left; transition: all 0.5s ease;}
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a.youtube span svg path{ fill:#dfe0e1; transition: all 0.5s ease;}
+
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a.youtube b{ float: right; font: 800 12px/34px 'Open Sans'; padding: 0px 15px; display: block; color: #ffffff; background: #d7362a; text-transform: uppercase; border-radius: 5px; margin-top: 12px; transition: all 0.5s ease;}
+
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a:hover b{ background: #ff3122;}
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a:hover.youtube span svg path{ fill:#d7362a;}
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a:hover.youtube em{ color: #666666;}
+	.confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a:hover.youtube h5{ color: #001a2f;}
+
+.confirmado footer{ background: #f5f5f5;}
+.confirmado footer a:link, .confirmado  footer a:active, .confirmado footer a:visited{ color: #737373;}
+.confirmado footer a::after{ color: #737373;}
+.confirmado footer span{ opacity: 0.3; padding-left: 19px;}
+
+/* RESPONSIVIDADE */
+
+._320 .confirmado main .video{ padding: 0px;}
+._320 .confirmado main .video .monitor{ display: none;}
+._320 .confirmado main .video::before{ display: none;}
+._320 .confirmado main .video h1{ font-size: 19px; line-height: 22px; width: 230px; margin: 0 auto; padding-top: 20px;}
+	._320 .confirmado main .video h1 b{ font-size: 19px; line-height: 22px;}
+._320 .confirmado main .video .videoVimeo{ margin-top: 18px; margin-bottom: 0px;}
+._320 .confirmado .fundoChamadas{ background: none; height: initial; margin: 0px;}
+._320 .confirmado .fundoChamadas .boxChamadas{ padding-bottom: 40px;}
+._320 .confirmado .fundoChamadas .boxChamadas section{ margin: 32px 0px 0px 0px; width: 100%; padding: 0px;}
+._320 .confirmado .fundoChamadas .boxChamadas section .quadradinho{ display: none;}
+._320 .confirmado .fundoChamadas .boxChamadas{ position: relative; left: initial; top: initial; width: 100%; transform: none; display: block; }
+._320 .confirmado .fundoChamadas .boxChamadas section h3{ font-size: 22px; line-height: 27px;}
+	._320 .confirmado .fundoChamadas .boxChamadas section h3 b{font-size: 22px; line-height: 27px;}
+._320 .confirmado .fundoChamadas .boxChamadas section p{ font-size: 13px; line-height: 21px; padding: 6px 0 0 0; width: 230px; margin: 0 auto;} 
+
+._320 .confirmado .fundoChamadas .boxChamadas section a.telegram img{ height: 40px;}
+._320 .confirmado .fundoChamadas .boxChamadas section a.telegram em{ left: 20px; font: 700 12px 'Open Sans'; top: 12px; letter-spacing: -0.030em; display: block; width: 100%;}
+
+._320 .confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a.youtube:link,
+._320 .confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a.youtube:active,
+._320 .confirmado .fundoChamadas .boxChamadas .inscrevaseYoutube a.youtube:visited{ width: 300px;}
+
+/* CORES */
+.confirmado main h1 b{ color: #3d576c;}
+.confirmado .fundoChamadas{ background: #173248;}
+.confirmado .fundoChamadas .boxChamadas section .quadradinho em{ background: #173248;}
+._320 .confirmado main .video .videoVimeo{ border-bottom: solid 3px #e1482d;}
+
+

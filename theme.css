@@ -7699,10 +7699,10 @@ ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, input, button, textarea, p, blo
     font-weight: 700;
   }
 ._320 .main{ max-width: 480px; min-width: 320px; height: initial; min-height: initial;}
-._320 main .form{ margin: 0px auto; float: initial; text-align: center; padding: 25px 20px 0px 20px; width: 100%; box-sizing: border-box;}
-._320 main .form h1{ font: normal 24px/30px 'MoskMedium500'; letter-spacing: -0.040em;}
-._320 main .form h1 b{ font: normal 24px/30px 'MoskExtraBold800';}
-._320 main .form { max-width: 400px; min-width: 280px; margin: 15px auto; width: 100%;}
+._320 .main .form{ margin: 0px auto; float: initial; text-align: center; padding: 25px 20px 0px 20px; width: 100%; box-sizing: border-box;}
+._320 .main .form h1{ font: normal 24px/30px 'Open Sans'; letter-spacing: -0.040em;}
+._320 .main .form h1 b{ font: normal 24px/30px 'Open Sans';}
+._320 .main .form { max-width: 400px; min-width: 280px; margin: 15px auto; width: 100%;}
 
 .main .form h3{ margin: 22px auto 0 auto; font:700 14px 'Open Sans'; font-style: italic; color: #d2d4d5; width: 220px; text-align: center; border-top:solid 2px #e5e5e5; text-transform: uppercase; padding-top: 5px; transition: all 0.5s ease; }
 .main .form:hover h3{ color: #666666; width: 240px;}

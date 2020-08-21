@@ -66,7 +66,7 @@
 ._320 .confirmado main .video{ padding: 0px;}
 ._320 .confirmado main .video .monitor{ display: none;}
 ._320 .confirmado main .video::before{ display: none;}
-._320 .confirmado main .video h1{ font-size: 19px; line-height: 22px; width: 230px; margin: 0 auto; padding-top: 20px;}
+._320 .confirmado main .video h1{ font-size: 19px; line-height: 22px; margin: 0 auto; padding-top: 20px;}
 	._320 .confirmado main .video h1 b{ font-size: 19px; line-height: 22px;}
 ._320 .confirmado main .video .videoVimeo{ margin-top: 18px; margin-bottom: 0px;}
 ._320 .confirmado .fundoChamadas{ background: none; height: initial; margin: 0px;}

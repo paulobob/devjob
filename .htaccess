@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^devjob\.com\.br$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www\.devjob\.com\.br$
+RewriteCond %{REQUEST_URI} !aulas/
+RewriteRule (.*) /aulas/$1 [L]
